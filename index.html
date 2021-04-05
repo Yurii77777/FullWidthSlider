@@ -1,55 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Width Slider v.1.0</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    
-    <!-- Slider Begin -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Full Width Slider v.2.0.0</title>
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+    <body>
+        <!-- Slider Begin -->
 
-    <section class="slider__group">
+        <section class="slider__group">
+            <!-- Sliders Begin. Just three for ex. -->
 
-        <!-- Sliders Begin. Just three for ex. -->
+            <div class="slider__group_slide active">
+                <img
+                    src="./img/slide1.jpg"
+                    alt="slider__group_slide1"
+                    class="slider__group_img"
+                />
+            </div>
 
-        <div class="slider__group_slide active">
-            <img src="./img/slide1.jpg" alt="slider__group_slide1" class="slider__group_img">
-        </div>
+            <div class="slider__group_slide">
+                <img
+                    src="./img/slide2.jpg"
+                    alt="slider__group_slide2"
+                    class="slider__group_img"
+                />
+            </div>
 
-        <div class="slider__group_slide">
-            <img src="./img/slide2.jpg" alt="slider__group_slide2" class="slider__group_img">
-        </div>
+            <!-- For Add new slide just clone this code block | Begin -->
+            <div class="slider__group_slide">
+                <img
+                    src="./img/slide3.jpg"
+                    alt="slider__group_slide3"
+                    class="slider__group_img"
+                />
+            </div>
+            <!-- For Add new slide just clone this code block | End -->
 
-        <!-- For Add new slide just clone this block code | Begin -->
-        <div class="slider__group_slide">
-            <img src="./img/slide3.jpg" alt="slider__group_slide3" class="slider__group_img">
-        </div>
-        <!-- For Add new slide just clone this block code | End -->
+            <!-- Sliders End -->
 
-        <!-- Sliders End -->
+            <!-- Slider nav Begin -->
 
-        <!-- Slider nav Begin -->
+            <button class="slider__group_prev-slide">
+                <span class="slider__group_prev-slide-icon"></span>
+            </button>
 
-        <button class="slider__group_prev-slide">
-            <span class="slider__group_prev-slide-icon"></span>
-        </button>
+            <button class="slider__group_next-slide">
+                <span class="slider__group_next-slide-icon"></span>
+            </button>
 
-        <button class="slider__group_next-slide">
-            <span class="slider__group_next-slide-icon"></span>
-        </button>
+            <!-- Slider nav End -->
 
-        <!-- Slider nav End -->
-        
-    </section>
+            <!-- Slider dots | Begin -->
 
-    <!-- Slider End -->
+            <div class="slider__group_dots">
+                <span class="slider__group_dot active"></span>
+                <span class="slider__group_dot"></span>
+                <span class="slider__group_dot"></span>
+            </div>
 
-    <!-- Add script for animate slider | Begin -->
-    <script src="./js/fScrSlider.js"></script>
-    <!-- Add script for animate slider | End -->
+            <!-- Slider dots | End -->
+        </section>
 
-</body>
+        <!-- Slider End -->
+
+        <!-- Add script for animate slider | Begin -->
+        <script src="./js/fScrSlider.js"></script>
+        <!-- Add script for animate slider | End -->
+
+        <!--
+            Free to use.
+            My contacts:
+            telegram @Yurets7777
+            https://github.com/Yurii77777
+        -->
+    </body>
 </html>
